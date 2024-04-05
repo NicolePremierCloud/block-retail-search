@@ -1,4 +1,4 @@
-connection: "@{CONNECTION}"
+connection: "looker_first_connection"
 
 include: "/explores/events.explore.lkml"
 include: "/explores/affinity.explore.lkml"
