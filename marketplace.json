@@ -1,0 +1,29 @@
+{
+    "label": "Discovery: E-Commerce Insights",
+    "category_label": "Models",
+    "branding": {
+      "image_uri": "https://marketplace-api.looker.com/block-icons/google-cloud.png",
+      "tagline": "Get insights on your e-commerce website, customer flow, and product performance."
+    },
+    "constants": {
+      "EVENTS_TABLE": {
+        "label": "Events Table" 
+      },
+      "PRODUCTS_TABLE": {
+        "label": "Products Table"
+      },
+      "SALES_MATERIALIZED_VIEW": {
+        "label": "Sales Materialized View"
+      },
+      "CONNECTION": {
+        "label": "Connection",
+          "value_constraint": "connection"
+      }
+    },
+    "models": [
+      {
+        "name": "retail_events",
+        "connection_constant": "CONNECTION"
+      }
+    ]
+  }
